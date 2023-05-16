@@ -1,7 +1,6 @@
 body {
-    background-color: black;
-    overflow: hidden;
-
+    overflow-x: hidden;
+    margin: 0;
 }
 
 #menu {
@@ -75,9 +74,7 @@ body {
     background: radial-gradient(circle, #54b3d6, #54b3d6);
     border-radius: 50%;
     transition: 0.3s ease;
-
-    
-
+    border: 1px solid #fff;
 }
 
 .change {
@@ -103,9 +100,9 @@ body {
 .change-bg {
     width: 520px;
     height: 460px;
-    transform: translate(30%, -20%);
-    
+    transform: translate(40%, -20%);  
 }
+
 .navContainer {
     max-width: 100%;
 }
@@ -132,5 +129,6 @@ body {
 
     #menu {
         width: 100%;
+        position: relative;
     }
 }
